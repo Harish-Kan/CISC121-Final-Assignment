@@ -2,6 +2,8 @@
 
 Bubble Sort 
 
+Reason : The reason why I choose bubble sort is due to it being incredibly simple to understand and conceptualize. It is also a very easy algorithm I find to easily visualize. This algorithm is an algorithm I indeed find enjoyable to implement. When implementing the algorithm in the GUI, I would want each step of the algorithm to be shown clearly. This can be easily done with bubble sort as it makes comparisons and swaps between different adjacent elements. Due to all these reasons and bubble sort being my personal favourite, I do think it is a good choice to use inside of this assignment. And to show how a sorting algorithm works. 
+
 ## Demo video/gif/screenshot of test
 
 https://github.com/user-attachments/assets/a56dc5c4-bc0f-4aca-9cc7-bb2c3ba546fa
