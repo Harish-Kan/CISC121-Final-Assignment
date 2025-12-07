@@ -9,12 +9,8 @@ Algorithm: Bubble Sort
 UI Framework: Gradio (for web-based interface)
 Python Version: 3.12.11
 
-AI Disclaimer: This code was developed with assistance from Claude AI.
-The implementation follows computational thinking principles including:
-- Decomposition: Breaking down the sorting process into individual steps
-- Pattern Recognition: Identifying the repeating compare-and-swap pattern
-- Abstraction: Hiding implementation details while showing relevant information
-- Algorithm Design: Structured input, processing, and output flow
+#[AI Disclaimer: Used Claude with prompt “Implement the Algorithm Develop a working version of your chosen algorithm in Python. • Comment key steps so the logic is easy to follow. • Ensure the code is readable and correct, not just functional. • The code structure does not have to be OOP • Handle user input and output to the GUI carefully (e.g., incorrect entries). Bubble sort is the algorithm of choice in this case. Decomposition : Starts off with taking the user’s list of numbers Comparing each pair of numbers, with its adjacent element If the left one is indeed larger, then it swaps them It keeps repeating the passes until no more swaps are needed As it outputs the sorted list in the end, it also shows every single step Pattern recognition ; Bubble Sort The algorithm (bubble sort) keeps repeating the same action over and over again until the condition is met Compares, possibly swaps, and then moves onto the next pair The larger value gets pushed to the end every single time when there is a pass The unsorted part, becomes smaller and smaller after every swap Abstraction : Shown to the user : After every single swap, the list Which of the 2 elements are being compared to each other The step number Not shown : The loop variables Internal Counters As well as the memory operations Algorithm Design : Input : Inside of the Gradio textbox, a list of numbers which are separated by commas Processing :  Bubble Sort is run, it then records every comparison as well as swap Output : Inside of GUI, it shows every step that the algorithm (bubble sort) takes. And in the end it shows the finalized sorted list The user in the end can end up choosing if they want to step through it, or see the full run of it. These are the steps needed, please implement the steps. This again is done through Python. Step 4 — Add Interactivity with a Python UI Library, Use a beginner friendly UI library such as Gradio. Another option is Tkinter, but that is for desktop Python apps only and cannot be deployed on Hugging Face. So, please use Gradio. • Create input boxes, e.g., for target value/s and search array, and result displays. • Show each step or the final result clearly. • Keep the interface simple enough that anyone can understand it. Ensure that it is truly interactiv, there are boxes that can be moved around to truly show the full implementation of the bubble sorting algorithm. The version of Python I am using is 3.12.11. Please use all the correct syntax and gradio implementation. There should not be any errors. Ensure that it doesn't just get stuck at one step, that it is able to visually go through every single one of the necessary steps. It is also actually show the swapping, not just be stuck. Ensure that all the buttons work. Especailly the next button. Ensure that the next button actually does it's job. And ensure that the sorting and swapping is actually shown. Not just the first step, but every step must be shown. It is still stuck, as the next button isn't working after the first step”]
+
 """
 
 import gradio as gr
@@ -655,3 +651,4 @@ if __name__ == "__main__":
     For Hugging Face deployment, the server configuration is automatic.
     """
     app.launch()
+
