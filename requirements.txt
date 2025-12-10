@@ -9,18 +9,5 @@
 # Main UI Library gradio>=4.0.0
 
 # Gradio dependencies (automatically installed with gradio)
-# Listed here for reference:
-# - numpy
-# - pandas
-# - pillow
-# - fastapi
-# - uvicorn
-# - httpx
-# - websockets
-# - pydantic
-# - python-multipart
-# - jinja2
-# - markupsafe
-# - typing-extensions
 
 # Note: No additional packages required beyond gradio
